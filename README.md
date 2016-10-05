@@ -3,6 +3,12 @@ This is me playing around with Convolutional Neural Networks.
 
 In this example; I've made a terminator which is trained to make a decision on if it should shoot an armed, or an unarmed person.  It's a super complex 2 layer ConvNet using a SoftMax classifier to decide on a binary output of if the terminator should kick ass or not.
 
+If you do `node index.js`, terminator doesn't really know what to do, he might shoot people, he might not.  It just so happens in the run I did below he decided to shoot both people.  Silly terminator.
+
+I then tell him 25 times that he really shouldn't be shooting the unarmed person, but can go to town on the armed one.
+
+When he's faced with another two folks, he makes the right decision.
+
 ## output from `node index.js`
 
 ```
