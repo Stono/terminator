@@ -2,7 +2,6 @@
 let convnetjs = require('./lib/convnet');
 
 var layer_defs = [];
-// input layer of size 1x1x2 (all volumes are 3D)
 layer_defs.push({type:'input', out_sx:1, out_sy:1, out_depth:1});
 
 // some fully connected layers
@@ -15,11 +14,6 @@ layer_defs.push({type:'softmax', num_classes: 2});
 // create a net out of it
 var net = new convnetjs.Net();
 net.makeLayers(layer_defs);
-
-// the network always works on Vol() elements. These are essentially
-// simple wrappers around lists, but also contain gradients and dimensions
-// line below will create a 1x1x2 volume and fill it with 0.5 and -1.3
-
 
 let isArmed = 1;
 let isNotArmed = 0;
