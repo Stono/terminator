@@ -1,0 +1,11 @@
+{
+  "name": "terminator",
+  "version": "1.0.0",
+  "description": "Terminator is here and will shoot you",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
