@@ -1,7 +1,7 @@
 # terminator
 This is me playing around with Convolutional Neural Networks.
 
-In this example; I've made a terminator which is trained to make a decision on if it should shoot an armed, or an unarmed person.  It's a super complex 2 layer ConvNet using a SoftMax classifier to decide on a binary output of if the terminator should kick ass or not.
+In this example; I've made a terminator which is trained to make a decision on if it should shoot an armed, or an unarmed person.  It's a super complex (lol) 2x20 layer ConvNet with the nodes using **ReLU** (Rectified Linear Unit) activation, anda **SoftMax** classifier to decide on a binary output of if the terminator should kick ass or not.
 
 If you do `node index.js`, terminator doesn't really know what to do, he might shoot people, he might not.  It just so happens in the run I did below he decided to shoot both people.  Silly terminator.
 
